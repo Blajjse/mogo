@@ -63,7 +63,6 @@
     display: flex;
     justify-self: center;
     font-family: var(--third-family);
-    font-weight: 400px;
     font-size: 24px;
     color: var(--title-color);
     padding-bottom: 20px;
@@ -79,7 +78,6 @@
 }
 .main-text {
     font-family: var(--second-family);
-    font-weight: 400;
     font-size: 15px;
     line-height: 147%;
     color: #b6b6b6;
@@ -101,14 +99,12 @@
 }
 .sec-subtitle {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
     font-variant: small-caps;
     color: #333;
 }
 .aboutus-subtitle {
     font-family: var(--third-family);
-    font-weight: 400;
     font-size: 24px;
     color: #333;
 }
@@ -125,14 +121,12 @@
 }
 .aboutus-info {
     font-family: var(--second-family);
-    font-weight: 400;
     font-size: 15px;
     align-items: center;
     color: #b6b6b6;
 }
 .aboutus-name {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
     font-variant: all-small-caps;
     align-items: center;
@@ -149,14 +143,12 @@
 
 .footer-text {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
     align-items: center;
     color: #333;
 }
 .footer-link {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
     text-align: center;
     color: #f38181;
@@ -181,7 +173,6 @@
 .main-subtitle {
     display: flex;
     font-family: var(--third-family);
-    font-weight: 400;
     font-size: 24px;
     color: #333;
     height: 35px;
@@ -189,17 +180,22 @@
     justify-content: row;
 }
 .main-title {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 30px;
-    color: #333;
-    height: 37px;
-    width: 275px;
+   font-family: var(--font-family);
+font-weight: 700;
+font-size: 30px;
+font-variant: all-small-caps;
+color: #333;
+    text-transform: uppercase;
+    margin-bottom: 109px;
 }
 .main-comment {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;   
+    flex-direction: row;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;   
 }
 .main-text {
     display: flex;
