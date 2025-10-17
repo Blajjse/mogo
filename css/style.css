@@ -93,10 +93,7 @@
 .aboutus {
     padding-bottom: 80px;
 }
-.footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 .sec-subtitle {
     font-family: var(--font-family);
     font-size: 14px;
@@ -107,6 +104,7 @@
     font-family: var(--third-family);
     font-size: 24px;
     color: #333;
+    margin-bottom: 17px;
 }
 .item-one {
     width: 371px;
@@ -118,40 +116,47 @@
     font-size: 30px;
     font-variant: all-small-caps;
     color: #333;
+    margin-bottom: 85px;
+
 }
 .aboutus-info {
     font-family: var(--second-family);
     font-size: 15px;
     align-items: center;
     color: #b6b6b6;
+    margin-bottom: 27px;
+}
+.aboutus-img {
+    margin-bottom: 30px;
 }
 .aboutus-name {
     font-family: var(--font-family);
     font-size: 14px;
     font-variant: all-small-caps;
-    align-items: center;
     color: #333;
+    margin-bottom: 11px;
 }
 .aboutus-aboutteam {
     font-family: var(--second-family);
     font-style: italic;
     font-weight: 300;
     font-size: 15px;
-    align-items: center;
     color: #b6b6b6;
 }
-
-.footer-text {
-    font-family: var(--font-family);
-    font-size: 14px;
+.aboutus-div {
     align-items: center;
-    color: #333;
 }
-.footer-link {
-    font-family: var(--font-family);
-    font-size: 14px;
-    text-align: center;
-    color: #f38181;
+.aboutus-name:nth-of-type(1) {
+    margin-left: 147px;
+}
+.aboutus-aboutteam:nth-of-type(1) {
+    margin-left: 142px;
+}
+.aboutus-name:nth-of-type(2) {
+    margin-left: 112px;
+}
+.aboutus-aboutteam:nth-of-type(2) {
+    margin-left: 142px;
 }
 .header-link {
     color: #95e1d3;
@@ -220,7 +225,48 @@ color: #333;
     display: flex;
     flex-direction: column;
 }
+.footer {
+    border-top: 1px solid #B6B6B6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-input {
+    font-family: var(--second-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    color: #b6b6b6;
+    width: 230px;
+}
+.footer-text {
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #333;
+}
+.footer-link {
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #f38181;
+}
 .footer-form {
     display: flex;
-    flex-direction: row;
+    justify-self: left;
+}
+.footer-button {
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase; 
+    color: #fff;
+    background: #95e1d3;
 }
